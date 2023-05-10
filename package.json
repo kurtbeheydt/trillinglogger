@@ -1,0 +1,18 @@
+{
+  "name": "data-logger-app",
+  "version": "0.0.1",
+  "description": "logger van rotatie en trillingen voor Jonas",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon ./server.js",
+    "start": "node ./server.js"
+  },
+  "author": "Kurt Beheydt <kurt@postduif.be>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.0"
+  }
+}
